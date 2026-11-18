@@ -1,0 +1,12 @@
+node_modules
+dist
+.vercel
+.netlify
+.DS_Store
+*.log
+
+# Original source files kept in the folder root; the site uses the copies in public/assets.
+/*.jpg
+/*.jpeg
+/*.png
+/*.docx
