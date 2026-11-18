@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "siteTitle": "Ashutosh Dubey | React Native Developer",
+    "description": "Ashutosh Dubey is a React Native developer with 7+ years of experience building scalable mobile apps across fintech, banking, health and social media.",
+    "themeColor": "#06060c",
+    "siteUrl": ""
+  },
+  "personal": {
+    "name": "Ashutosh Dubey",
+    "firstName": "Ashutosh",
+    "role": "React Native Developer",
+    "roles": [
+      "React Native Developer",
+      "Mobile App Architect",
+      "Design System Builder",
+      "AI Tooling Enthusiast"
+    ],
+    "tagline": "I build scalable, pixel-perfect mobile apps with React Native and TypeScript, from fintech and banking to AI-powered developer tools.",
+    "location": "Gurugram, India",
+    "availability": {
+      "open": true,
+      "text": "Open to new opportunities"
+    },
+    "profileImage": "/assets/profile.jpg",
+    "casualImage": "/assets/casual.jpg",
+    "resume": {
+      "viewUrl": "/assets/Ashutosh_Dubey_Resume.pdf",
+      "viewLabel": "View Resume",
+      "downloadUrl": "/assets/Ashutosh_Dubey_Resume.pdf",
+      "downloadLabel": "Download Resume"
+    },
+    "heroBadges": ["React Native", "TypeScript", "Redux Toolkit", "AWS Bedrock", "Turbo Modules"],
+    "codeCard": {
+      "name": "Ashutosh",
+      "stack": "React Native",
+      "experience": "7+ years",
+      "coffee": "Infinity"
+    }
+  },
+  "about": {
+    "heading": "Crafting mobile experiences that feel native and scale",
+    "paragraphs": [
+      "I'm a React Native developer with 7+ years of experience delivering scalable mobile apps across fintech, banking, health and social media.",
+      "Today I'm a Software Development Engineer II at Airtel Payments Bank, where I build key modules of the Airtel Thanks App, shape core app architecture, and lead a team building a reusable Design System and Widget Library.",
+      "Lately I've been building AI-powered developer tools with AWS, Amazon Bedrock Agents, Strands Agents, MCP and RAG, including Picasso, a Figma-to-code tool."
+    ],
+    "highlights": [
+      "Led a team of 7 to build a Design System & Widget Library with Storybook",
+      "Cut development time by 30% with reusable widget components",
+      "Adopted React Native's New Architecture with Turbo Modules",
+      "Built Picasso, an AI Figma-to-code tool using Bedrock, RAG & MCP"
+    ],
+    "currently": {
+      "title": "Currently",
+      "text": "SDE II @ Airtel Payments Bank"
+    }
+  },
+  "stats": [
+    { "value": 7, "suffix": "+", "label": "Years of experience" },
+    { "value": 3, "suffix": "", "label": "Companies" },
+    { "value": 7, "suffix": "", "label": "Engineers led on the Design System" },
+    { "value": 30, "suffix": "%", "label": "Faster development with reusable widgets" }
+  ],
+  "experience": [
+    {
+      "company": "Airtel Payments Bank Ltd",
+      "location": "Gurugram",
+      "role": "Software Development Engineer II",
+      "start": "Aug 2024",
+      "end": "Present",
+      "current": true,
+      "points": [
+        "Developed key modules (Rewards, DBT, Plans) for the Airtel Thanks App using React Native and TypeScript.",
+        "Built core app architecture with network wrappers, MMKV storage and deep linking with navigation, and adopted React Native's New Architecture with Turbo Modules.",
+        "Created and led a team of 7 to build a reusable Design System and Widget Library using Storybook, published on the Nexus repository for reuse across teams.",
+        "Reduced development time by 30% by introducing reusable widget components and the Design System library.",
+        "Built POCs for AI agents and AI tooling using AWS, Amazon Bedrock Agents and RAG with Bedrock Knowledge Bases; evaluated Kiro and third-party SDKs.",
+        "Created Picasso, an AI-powered Figma-to-code tool using RAG, Amazon Bedrock and Strands Agents, connected to Figma and Bitbucket through MCP."
+      ],
+      "tech": ["React Native", "TypeScript", "Turbo Modules", "MMKV", "Storybook", "AWS Bedrock", "MCP"]
+    },
+    {
+      "company": "Ernst & Young LLP",
+      "location": "Gurugram",
+      "role": "Consultant",
+      "start": "Sep 2022",
+      "end": "Aug 2024",
+      "current": false,
+      "points": [
+        "Migrated legacy native flows (Wallet, Periodic KYC, Sweep-in) to React Native for better performance and maintainability.",
+        "Ensured on-time delivery through close collaboration with cross-functional teams, and maintained code quality through testing and reviews.",
+        "Integrated APIs and delivered pixel-perfect UI in coordination with backend and design teams."
+      ],
+      "tech": ["React Native", "TypeScript", "Redux", "Jest", "Native Modules"]
+    },
+    {
+      "company": "Techahead Software Pvt Ltd",
+      "location": "Noida",
+      "role": "Software Engineer",
+      "start": "Jul 2019",
+      "end": "Sep 2022",
+      "current": false,
+      "points": [
+        "Developed and delivered 5+ mobile apps across Health, Education and Social Media using React Native.",
+        "Resolved performance issues and ensured stable user experiences through clean, modular code.",
+        "Led a small team to deliver high-quality projects on time while following good architecture practices."
+      ],
+      "tech": ["React Native", "Redux Saga", "React Native Maps", "QuickBlox", "Firebase"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Picasso",
+      "subtitle": "Figma-to-Code AI Tool",
+      "category": "AI Tooling",
+      "featured": true,
+      "icon": "🎨",
+      "color": "#8b5cf6",
+      "description": "An AI tool that converts Figma designs into code, using RAG and Amazon Bedrock with a Strands agent.",
+      "points": [
+        "Converts Figma designs into production-ready code with a Strands agent on Amazon Bedrock.",
+        "Uses MCP (Model Context Protocol) to connect the agent with Figma and Bitbucket; built with Kiro IDE."
+      ],
+      "tech": ["RAG", "Amazon Bedrock", "Strands Agents", "MCP", "Kiro IDE"],
+      "links": {}
+    },
+    {
+      "title": "Airtel Payments Bank App",
+      "subtitle": "Core architecture & Design System",
+      "category": "Fintech",
+      "featured": true,
+      "icon": "🏦",
+      "color": "#e11d48",
+      "description": "Core architecture work plus a reusable Design System and Widget Library shared across teams.",
+      "points": [
+        "Built network wrappers, deep linking and MMKV-based storage for the core architecture.",
+        "Led a team building the Design System and Widget Library, published on the Nexus repository.",
+        "Implemented POCs for AI agents (AWS, Bedrock Agents, RAG, Knowledge Bases) and third-party SDKs."
+      ],
+      "tech": ["React Native", "TypeScript", "Redux Toolkit", "MMKV", "Turbo Modules", "AWS Bedrock"],
+      "links": {}
+    },
+    {
+      "title": "Airtel Thanks App",
+      "subtitle": "Rewards, DBT & Plan Purchase",
+      "category": "Fintech",
+      "featured": true,
+      "icon": "🎁",
+      "color": "#f97316",
+      "description": "Key modules of the Airtel Thanks App, including Rewards, DBT and Plan Purchase.",
+      "points": [
+        "Developed the Rewards, DBT and Plan Purchase modules with React Native and TypeScript.",
+        "Worked with cross-functional teams for timely delivery, with high code quality through testing and code reviews."
+      ],
+      "tech": ["React Native", "TypeScript", "Redux Thunk", "React Navigation", "Native Modules"],
+      "links": {}
+    },
+    {
+      "title": "YourAccess",
+      "subtitle": "Bilingual learning platform",
+      "category": "Education",
+      "featured": false,
+      "icon": "🎓",
+      "color": "#0ea5e9",
+      "description": "An educational platform and bilingual learning initiative built on over 25 years of Access International School experience, founded and led by CEO Bruna Tadross.",
+      "points": [
+        "Supports student-school interaction beyond the classroom.",
+        "Live classes, events, workshops and extra activities in one app."
+      ],
+      "tech": ["React Native"],
+      "links": {}
+    },
+    {
+      "title": "PicklePlay",
+      "subtitle": "Social app for pickleball players",
+      "category": "Social",
+      "featured": false,
+      "icon": "🏓",
+      "color": "#22c55e",
+      "description": "A social app for pickleball players to discover nearby courts, clubs and events, with player connections and real-time chat.",
+      "points": [
+        "Court, club and event discovery with maps and geolocation.",
+        "Player connections, real-time chat and event listings."
+      ],
+      "tech": ["React Native", "TypeScript", "Redux Saga", "React Native Maps", "QuickBlox", "Geolocation"],
+      "links": {}
+    },
+    {
+      "title": "HealthBytes",
+      "subtitle": "Social platform for doctors & patients",
+      "category": "Health",
+      "featured": false,
+      "icon": "🩺",
+      "color": "#06b6d4",
+      "description": "A social platform where doctors share medical content on specific conditions, and patients follow doctors and ask questions by direct message.",
+      "points": [
+        "Doctors share images and videos about specific diseases.",
+        "Patients follow doctors and send health questions through direct messaging."
+      ],
+      "tech": ["React Native", "TypeScript", "Redux Saga", "React Native Maps", "Native Bridges"],
+      "links": {}
+    }
+  ],
+  "skills": [
+    {
+      "group": "Languages & Frameworks",
+      "icon": "code",
+      "items": ["React Native (CLI & Expo)", "JavaScript", "TypeScript", "Redux Toolkit", "Redux Thunk", "Redux Saga", "Context API", "MobX", "Jest", "Unit Testing"]
+    },
+    {
+      "group": "Cloud & AI",
+      "icon": "cloud",
+      "items": ["AWS", "Amazon Bedrock", "Bedrock Agents", "Strands Agents", "AI Agents", "Agentic Workflows", "MCP", "RAG", "Bedrock Knowledge Bases", "Kiro IDE"]
+    },
+    {
+      "group": "Mobile Features & SDKs",
+      "icon": "smartphone",
+      "items": ["Firebase", "Azure Notification Hub", "PubNub", "QuickBlox", "i18n", "React Native Maps", "Google Places API", "Geocoding", "MMKV Storage"]
+    },
+    {
+      "group": "Tools & Platforms",
+      "icon": "wrench",
+      "items": ["Firebase Crashlytics", "Bugsnag", "Git", "Bitbucket", "Xcode", "Android Studio", "VS Code", "Nexus Repository", "Jira", "Figma", "Storybook", "AWS S3"]
+    },
+    {
+      "group": "Professional",
+      "icon": "users",
+      "items": ["Mentorship", "Stakeholder Communication", "Agile Practices", "Team Collaboration"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Bundelkhand University",
+      "location": "Jhansi",
+      "year": "2019",
+      "details": ""
+    },
+    {
+      "degree": "Bachelor of Science (B.Sc)",
+      "institution": "Mahatma Gandhi Kashi Vidyapith",
+      "location": "Varanasi",
+      "year": "2016",
+      "details": ""
+    }
+  ],
+  "contact": {
+    "heading": "Let's build something great together",
+    "text": "Have a role, a project or an idea? My inbox is always open. I'll get back to you as soon as I can.",
+    "email": "iamashudubey@gmail.com",
+    "phone": "+918299212772",
+    "showPhone": false,
+    "whatsapp": "918299212772",
+    "showWhatsapp": false,
+    "location": "Gurugram, India",
+    "formEndpoint": ""
+  },
+  "socials": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ashutosh-dubey-a55751144", "icon": "linkedin" },
+    { "label": "GitHub", "url": "", "icon": "github" },
+    { "label": "Email", "url": "mailto:iamashudubey@gmail.com", "icon": "email" }
+  ]
+}
